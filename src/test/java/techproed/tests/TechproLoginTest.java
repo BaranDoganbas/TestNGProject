@@ -15,8 +15,8 @@ public class TechproLoginTest {
     public void testLogin() {
         Driver.getDriver().get(ConfigReader.getProperty("techpro_test_url"));
         techproLoginPage = new TechproLoginPage();
-        techproLoginPage.userName.sendKeys(ConfigReader.getProperty("techpro_username"));
-        techproLoginPage.password.sendKeys(ConfigReader.getProperty("techpro_password"));
+        techproLoginPage.userName.sendKeys(ConfigReader.getProperty("techpro_test_username"));
+        techproLoginPage.password.sendKeys(ConfigReader.getProperty("techpro_test_password"));
         techproLoginPage.submitButton.click();
 
         techproHomePage = new TechproHomePage();
@@ -24,5 +24,7 @@ public class TechproLoginTest {
 
         techproHomePage.homeLogoutButton.click();
         Assert.assertTrue(techproLoginPage.submitButton.isDisplayed());
+
+        Driver.closeDriver();
     }
 }

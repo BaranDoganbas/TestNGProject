@@ -16,5 +16,10 @@ public class BlueRentalHomePage {
     @FindBy(id = "dropdown-basic-button")
     public WebElement userID;
 
+    @FindBy(linkText = "Logout")
+    public WebElement logoutLink;
+
+    @FindBy(xpath = "//button[.='OK']")
+    public WebElement OK;
 
 }

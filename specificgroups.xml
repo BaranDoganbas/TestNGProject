@@ -10,6 +10,6 @@
 
 <!--    TUM PROJEDEKI KLASORLERI ARA VE regression-tests isimli @Test case'leri calistir-->
     <packages>
-        <package name="techproed.*"></package>
+        <package name="techproed.*"/>
     </packages>
 </suite>

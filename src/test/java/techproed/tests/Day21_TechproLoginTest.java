@@ -7,11 +7,11 @@ import techproed.pages.TechproLoginPage;
 import techproed.utilities.ConfigReader;
 import techproed.utilities.Driver;
 
-public class TechproLoginTest {
+public class Day21_TechproLoginTest {
 
     TechproLoginPage techproLoginPage;
     TechproHomePage techproHomePage;
-    @Test
+    @Test(groups = "regression-tests")
     public void testLogin() {
         Driver.getDriver().get(ConfigReader.getProperty("techpro_test_url"));
         techproLoginPage = new TechproLoginPage();

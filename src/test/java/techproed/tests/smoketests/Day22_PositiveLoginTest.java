@@ -28,5 +28,6 @@ Admin password: 12345
         blueRentalLoginPage.passwordBox.sendKeys(ConfigReader.getProperty("admin_sifre"));
         blueRentalLoginPage.loginButton.click();
         Assert.assertTrue(blueRentalHomePage.userID.isDisplayed());
+        Driver.closeDriver();
     }
 }

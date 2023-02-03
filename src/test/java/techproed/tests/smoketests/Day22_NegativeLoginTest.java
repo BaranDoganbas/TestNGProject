@@ -28,7 +28,7 @@ public class Day22_NegativeLoginTest {
         blueRentalLoginPage.emailBox.sendKeys(ConfigReader.getProperty("fake_email"));
         blueRentalLoginPage.passwordBox.sendKeys(ConfigReader.getProperty("fake_pass"));
         blueRentalLoginPage.loginButton.click();
-        Thread.sleep(2000);
+        Thread.sleep(5000);
         Assert.assertEquals(blueRentalLoginPage.error_message_1.getText(),"User with email fake@bluerentalcars.com not found");
 
     }

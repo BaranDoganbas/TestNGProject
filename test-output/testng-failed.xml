@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/barut/IdeaProjects/B103TestNGProject/src/test/java/techproed/tests/smoketests(failed)">
+    <classes>
+      <class name="techproed.tests.dataprovider.Day24_DataProviderTest1">
+        <methods>
+          <include name="googleAramasi" invocation-numbers="0 1 2 3 4 5"/>
+        </methods>
+      </class> <!-- techproed.tests.dataprovider.Day24_DataProviderTest1 -->
+    </classes>
+  </test> <!-- C:/Users/barut/IdeaProjects/B103TestNGProject/src/test/java/techproed/tests/smoketests(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

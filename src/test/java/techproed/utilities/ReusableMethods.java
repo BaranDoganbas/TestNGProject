@@ -6,6 +6,9 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.*;
 import org.testng.Assert;
 
+import java.awt.*;
+import java.awt.datatransfer.StringSelection;
+import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -240,6 +243,40 @@ public class ReusableMethods {
             assertTrue("Element not visible: " + element, element.isDisplayed());
         } catch (NoSuchElementException e) {
             Assert.fail("Element not found: " + element);
+        }
+    }
+    /**
+     * @param filePath ABSOLUTE DOSYA YOLU
+     *  ORNEK : ReusableMethods.uploadFilePath("/Users/techproed/Desktop/logo.jpeg")
+     */
+    public static void uploadFilePath(String filePath) {
+        try {
+            ReusableMethods.waitFor(3);
+//            DOSYAYI BULMAK ICIN KULLANILIR
+            StringSelection stringSelection = new StringSelection(filePath);
+            Toolkit.getDefaultToolkit().getSystemClipboard().setContents(stringSelection, null);
+//            ROBOT CLASS MASAUSTU UYGULAMALARI ILE ILETISIME GECMEK ICIN KULLANILIR
+            Robot robot = new Robot();
+            //PRESS ctrl+v
+            robot.keyPress(KeyEvent.VK_CONTROL);
+            ReusableMethods.waitFor(3);
+            robot.keyPress(KeyEvent.VK_V);
+            ReusableMethods.waitFor(3);
+            //PRESS ctrl+v
+            robot.keyRelease(KeyEvent.VK_CONTROL);
+            ReusableMethods.waitFor(3);
+            robot.keyRelease(KeyEvent.VK_V);
+            ReusableMethods.waitFor(3);
+            System.out.println("PASSED");
+            //pressing enter
+            ReusableMethods.waitFor(3);
+            robot.keyPress(KeyEvent.VK_ENTER);
+            ReusableMethods.waitFor(3);
+            //releasing enter
+            robot.keyRelease(KeyEvent.VK_ENTER);
+            ReusableMethods.waitFor(3);
+            System.out.println("ENTER");
+        } catch (Exception e) {
         }
     }
 }

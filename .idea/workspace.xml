@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37adc268-ad2b-4e08-accf-4e4c47331325" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/pages/TechproLoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/TechproLoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/tests/Day21_TechproLoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day21_TechproLoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/techproed/tests/listeners/Day27_ListenersTest1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/techproed/tests/listeners/Day27_ListenersTest1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/techproed/tests/listeners/Day27_ListenersTest3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/techproed/tests/listeners/Day27_ListenersTest3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/techproed/utilities/Driver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/techproed/utilities/Driver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/techproed/utilities/ReusableMethods$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/techproed/utilities/ReusableMethods$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/techproed/utilities/ReusableMethods$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/techproed/utilities/ReusableMethods$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/techproed/utilities/ReusableMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/techproed/utilities/ReusableMethods.class" afterDir="false" />
-    </list>
+    <list default="true" id="37adc268-ad2b-4e08-accf-4e4c47331325" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
